@@ -65200,7 +65200,7 @@ var app = (function () {
     const { console: console_1 } = globals;
     const file$3 = "src/Map.svelte";
 
-    // (312:4) {#if map}
+    // (311:4) {#if map}
     function create_if_block(ctx) {
     	let current;
     	const default_slot_template = /*#slots*/ ctx[10].default;
@@ -65251,7 +65251,7 @@ var app = (function () {
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(312:4) {#if map}",
+    		source: "(311:4) {#if map}",
     		ctx
     	});
 
@@ -65275,9 +65275,9 @@ var app = (function () {
     			if (if_block) if_block.c();
     			attr_dev(link, "rel", "stylesheet");
     			attr_dev(link, "href", "https://unpkg.com/mapbox-gl/dist/mapbox-gl.css");
-    			add_location(link, file$3, 302, 4, 10210);
+    			add_location(link, file$3, 301, 4, 10161);
     			attr_dev(div, "class", "svelte-1hzn8rv");
-    			add_location(div, file$3, 310, 0, 10439);
+    			add_location(div, file$3, 309, 0, 10390);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -65380,8 +65380,10 @@ var app = (function () {
     				style: "mapbox://styles/franckalbinet/cir54goks0016cinp0q0x5h8r",
     				center: [lon, lat],
     				zoom,
-    				attributionControl: false,
-    				projection
+    				attributionControl: true,
+    				customAttribution: "| SIMULATED DATA - ConvEx-3 (2021)",
+    				projection,
+    				logoPosition: "bottom-right"
     			})); // pitch: 45,
 
     		// Create a popup, but don't add it to the map yet.
