@@ -8,8 +8,9 @@ Such visualization technique is one way to address the classical [overplotting i
 You can access a live demo. at the following url: http://fr.anckalbi.net/ramo
 
 
-The [Svelte JavaScript framework](https://svelte.dev) is used in the current prototyped implementation but further version will use [SvelteKit](https://kit.svelte.dev)
+The [Svelte JavaScript framework](https://svelte.dev) is used in the current prototyped implementation but further version will use [SvelteKit](https://kit.svelte.dev).
 
+Data source: [SIMULATED DATA - ConvEx-3 (2021)](https://www.who.int/news/item/27-10-2021-convex(3)-2021-major-international-nuclear-emergency-exercise-held-at-baraka-nuclear-power-plant-in-abu-dhabi-uae)
 
 ## Get started
 
