@@ -4,9 +4,6 @@
     import print from "print-js";
     import { zoomScale, asMapboxStepExpr } from "./lib/scales";
     import { extent } from "d3";
-    // import { centroid, polygon } from "@turf/turf";
-    // import { centroid as test } from "@turf/centroid";
-    // import { centroid } from "geojson2h3";
     import * as turf from "@turf/turf";
     import {
         bboxToPoly,
@@ -45,8 +42,10 @@
             style: "mapbox://styles/franckalbinet/cir54goks0016cinp0q0x5h8r",
             center: [lon, lat],
             zoom,
-            attributionControl: false,
+            attributionControl: true,
+            customAttribution: "| SIMULATED DATA - ConvEx-3 (2021)",
             projection: projection,
+            logoPosition: "bottom-right",
             // pitch: 45,
         });
 
